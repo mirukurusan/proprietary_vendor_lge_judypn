@@ -118,10 +118,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/judypn/proprietary/vendor/usr/keylayout/goodix_fp_key.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_fp_key.kl
 
 PRODUCT_PACKAGES += \
-    audio.primary.judypn \
     fingerprint.sdm845 \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
-    libaudio_log_utils \
     libc++_shared \
     libgf_algo \
     libgf_hal \
